@@ -1,0 +1,1 @@
+ /Users/alejandroconza/FLUTTERproyecto2/camaracomerciomobile/Class\ 9/carrito_compras_fin/.dart_tool/flutter_build/3b852edd004c2dfef8339a4e585a8ad1/native_assets.json: 
