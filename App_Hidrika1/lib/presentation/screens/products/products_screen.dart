@@ -17,15 +17,55 @@ class _ProductsScreenState extends State<ProductsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mis Productos'),
+        title: const Text('Huella de agua'),
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            AvatarWidget(),
-            SizedBox(height: 16),
-            CustomTextWidget(text: "Bienvenido Cliente", textType: TextType.title)
+            const AvatarWidget(),
+            const SizedBox(height: 16),
+            const CustomTextWidget(text: "Bienvenido Cliente", textType: TextType.title),
+            const SizedBox(height: 32),
+            CustomButtonWidget(
+            text: 'Subir información',
+            type: ButtonType.primary,
+            onPressed: () {
+             print('Hola');
+            },
+            ),
+            const SizedBox(height: 32),
+            CustomButtonWidget(
+            text: 'Requerimientos pendientes',
+            type: ButtonType.primary,
+            onPressed: () {
+             print('Hola');
+            },
+            ),
+             const SizedBox(height: 32),
+            CustomButtonWidget(
+            text: 'Historial de estudios',
+            type: ButtonType.primary,
+            onPressed: () {
+             print('Hola');
+            },
+            ),
+             const SizedBox(height: 32),
+            CustomButtonWidget(
+            text: 'Comparar estudios por año',
+            type: ButtonType.primary,
+            onPressed: () {
+             print('Hola');
+            },
+            ),
+             const SizedBox(height: 32),
+            CustomButtonWidget(
+            text: 'Indicadores clave',
+            type: ButtonType.primary,
+            onPressed: () {
+             print('Hola');
+            },
+            ),
           ],
         ),
       ),
