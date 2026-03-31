@@ -1,0 +1,11 @@
+{
+    "empresas": [ 
+    {
+    "id": "wGNWGSLr64uhdpprsSLV",
+    "nombre": "Antamina",
+    "RUC": 20555939817,
+    "rubro": "minería",
+    "cliente": true
+    }
+  ]
+}

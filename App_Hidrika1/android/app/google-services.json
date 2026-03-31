@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999196751286",
+    "project_id": "huellahidrika",
+    "storage_bucket": "huellahidrika.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999196751286:android:a7f9a0985b3db4e20d7d17",
+        "android_client_info": {
+          "package_name": "com.example.carrito_compras"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdWgAGlR4Ktusy4JL8Ff4xlxnCcJU6m9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
